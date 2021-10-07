@@ -8,4 +8,14 @@ public class Tea extends Forroital {
         super(nev, homerseklet, ar);
         this.citrom = citrom;
     }
+
+    @Override
+    public String toString() {
+        if (citrom == true){
+            return "Tea, " + super.toString() + ", hozzáadott citrommal";
+        }
+        else {
+            return "Tea, " + super.toString() + ", hozzáadott citrom nélkül";
+        }
+    }
 }

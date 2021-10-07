@@ -11,5 +11,9 @@ public class Main {
         Tea tea2 = new Tea("Lipton Ice Tea", 10, 130, false);
         Cappuccino cappuccino1 = new Cappuccino("Nestle-s Cappuccino", 60, 210, true, true);
         Cappuccino cappuccino2 = new Cappuccino("eros", 70, 175, false, false);
+
+        System.out.println(tea1);
+        System.out.println(kave1);
+        System.out.println(cappuccino1);
     }
 }

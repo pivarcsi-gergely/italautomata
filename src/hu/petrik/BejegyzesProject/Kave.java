@@ -12,11 +12,11 @@ public class Kave extends Forroital {
     @Override
     public String toString() {
 
-        if (tej == true){
-         return "Kávé, " +  super.toString() + ", hozzáadott tejjel.";
+        if (tej){
+         return "Kávé, " +  super.toString() + ", hozzáadott tejjel";
         }
         else {
-            return "Kávé, " +  super.toString() + ", hozzáadott tej nélkül.";
+            return "Kávé, " +  super.toString() + ", hozzáadott tej nélkül";
         }
     }
 }

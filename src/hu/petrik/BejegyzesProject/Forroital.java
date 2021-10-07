@@ -38,6 +38,6 @@ public class Forroital {
 
     @Override
     public String toString() {
-        return String.format("%s néven, %d hőmérsékleten és %d áron", nev, homerseklet, ar);
+        return String.format("%s néven, %d Celsius fok hőmérsékleten és %d áron", nev, homerseklet, ar);
     }
 }
