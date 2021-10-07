@@ -1,5 +1,7 @@
 package hu.petrik.BejegyzesProject;
 
+import java.util.Random;
+
 public class Forroital {
 
     private String nev;
@@ -24,16 +26,22 @@ public class Forroital {
         return ar;
     }
 
+    public void setNev(String nev) {
+        this.nev = nev;
+    }
 
     public void arEmelFix (){
         this.ar+=10;
     }
     public void arEmelMegadott(int ar) {
-        this.ar = ar;
+        this.ar+=ar;
     }
 
     public void arEmelRandom(){
 
+        Random r = new Random();
+        int randomSzam = r.nextInt(20)+1;
+        ar+=randomSzam;
     }
 
     @Override

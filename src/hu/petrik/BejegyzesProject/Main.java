@@ -14,6 +14,15 @@ public class Main {
 
         System.out.println(tea1);
         System.out.println(kave1);
+        System.out.println(cappuccino1 + "\n");
+
+        tea1.arEmelFix();
+        kave1.arEmelMegadott(30);
+        cappuccino1.arEmelRandom();
+
+        System.out.println(tea1);
+        System.out.println(kave1);
         System.out.println(cappuccino1);
+
     }
 }
