@@ -8,4 +8,15 @@ public class Kave extends Forroital {
         super(nev, homerseklet, ar);
         this.tej = tej;
     }
+
+    @Override
+    public String toString() {
+
+        if (tej == true){
+         return "Kávé, " +  super.toString() + ", hozzáadott tejjel.";
+        }
+        else {
+            return "Kávé, " +  super.toString() + ", hozzáadott tej nélkül.";
+        }
+    }
 }

@@ -12,5 +12,32 @@ public class Forroital {
         this.ar = ar;
     }
 
+    public String getNev() {
+        return nev;
+    }
 
+    public int getHomerseklet() {
+        return homerseklet;
+    }
+
+    public int getAr() {
+        return ar;
+    }
+
+
+    public void arEmelFix (){
+        this.ar+=10;
+    }
+    public void arEmelMegadott(int ar) {
+        this.ar = ar;
+    }
+
+    public void arEmelRandom(){
+
+    }
+
+    @Override
+    public String toString() {
+        return String.format("%s néven, %d hőmérsékleten és %d áron", nev, homerseklet, ar);
+    }
 }
